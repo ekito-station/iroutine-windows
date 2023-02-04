@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ScoreDataSet" targetNamespace="http://tempuri.org/ScoreDataSet.xsd" xmlns:mstns="http://tempuri.org/ScoreDataSet.xsd" xmlns="http://tempuri.org/ScoreDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ScoreDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ScoreDataSet" msprop:Generator_UserDSName="ScoreDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="scoreDataTable" msprop:Generator_TableClassName="scoreDataTableDataTable" msprop:Generator_TableVarName="tablescoreDataTable" msprop:Generator_TablePropName="scoreDataTable" msprop:Generator_RowDeletingName="scoreDataTableRowDeleting" msprop:Generator_RowChangingName="scoreDataTableRowChanging" msprop:Generator_RowEvHandlerName="scoreDataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="scoreDataTableRowDeleted" msprop:Generator_UserTableName="scoreDataTable" msprop:Generator_RowChangedName="scoreDataTableRowChanged" msprop:Generator_RowEvArgName="scoreDataTableRowChangeEvent" msprop:Generator_RowClassName="scoreDataTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="日付" msprop:Generator_ColumnVarNameInTable="column日付" msprop:Generator_ColumnPropNameInRow="日付" msprop:Generator_ColumnPropNameInTable="日付Column" msprop:Generator_UserColumnName="日付" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="腹筋" msprop:Generator_ColumnVarNameInTable="column腹筋" msprop:Generator_ColumnPropNameInRow="腹筋" msprop:Generator_ColumnPropNameInTable="腹筋Column" msprop:Generator_UserColumnName="腹筋" type="xs:int" minOccurs="0" />
+              <xs:element name="背筋" msprop:Generator_ColumnVarNameInTable="column背筋" msprop:Generator_ColumnPropNameInRow="背筋" msprop:Generator_ColumnPropNameInTable="背筋Column" msprop:Generator_UserColumnName="背筋" type="xs:int" minOccurs="0" />
+              <xs:element name="腕立て伏せ" msprop:Generator_ColumnVarNameInTable="column腕立て伏せ" msprop:Generator_ColumnPropNameInRow="腕立て伏せ" msprop:Generator_ColumnPropNameInTable="腕立て伏せColumn" msprop:Generator_UserColumnName="腕立て伏せ" type="xs:int" minOccurs="0" />
+              <xs:element name="シャトルラン" msprop:Generator_ColumnVarNameInTable="columnシャトルラン" msprop:Generator_ColumnPropNameInRow="シャトルラン" msprop:Generator_ColumnPropNameInTable="シャトルランColumn" msprop:Generator_UserColumnName="シャトルラン" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
